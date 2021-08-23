@@ -8,7 +8,7 @@
       <div class="projects">
         <div class="project" v-for="(item,id) in $page.comInfo.edges" :key="id">
           <g-link :to="`/compInfo/${item.node.id}`" class="project-link">
-            <g-image alt="Banana" :src="`http://106.75.80.177:1337${item.node.icon.url}`" class="img thumbnail"/>
+            <g-image alt="Banana" :src="`/upload${item.node.icon.url}`" class="img thumbnail"/>
             <h3 class="project-title">{{item.node.name}}</h3>
             <div class="categories">
               <span class="category" v-for="(tag,id) in item.node.tags" :key="id">{{tag.name}}</span>

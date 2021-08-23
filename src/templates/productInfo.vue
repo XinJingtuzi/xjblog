@@ -27,7 +27,7 @@
             </p>
             
             <p>
-                <g-image :src="`http://106.75.80.177:1337${$page.productInfo.icon.url}`" width="2560" />
+                <g-image :src="`/upload${$page.productInfo.icon.url}`" width="2560" />
             </p>
         </div>
     </div>
