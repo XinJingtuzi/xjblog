@@ -18,7 +18,7 @@
       </div>
       <div class="content">
         <p>
-          <g-image :src="`${process.env.GRIDSOME_API_URL}${$page.compData.icon.url}`" width="2560"/>
+          <g-image :src="`http://106.75.80.177:1337${$page.compData.icon.url}`" width="2560"/>
         </p>
       </div>
     </div>
