@@ -6,7 +6,6 @@
 
 module.exports = {
   siteName: '辛静',
-  pathPrefix: "/blog",
   plugins: [
     {
       use: '@gridsome/source-strapi',
