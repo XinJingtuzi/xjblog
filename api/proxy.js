@@ -5,12 +5,8 @@ module.exports = (req, res) => {
   let target = ''
 
   // 处理代理目标地址
-  if (req.url.startsWith('/auth/local')) {
-    target = 'http://106.75.80.177:1337/'
-  } else if (req.url.startsWith('/blogs')) {
-    target = 'http://106.75.80.177:1337/'
-  } else if (req.url.includes('/upload')) {
-    target = 'http://106.75.80.177:1337/'
+  if (req.url.includes('/upload')) {
+    target = 'http://106.75.80.177:1337'
   }
 
   // 创建代理对象并转发请求
