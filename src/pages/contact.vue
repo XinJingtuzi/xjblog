@@ -48,7 +48,7 @@ export default {
     },
     methods: {
         async submit(){
-            const { data } = await axios.post(`http://106.75.80.177:1337/customs`,this.submitdata)
+            const { data } = await axios.post(`/customs`,this.submitdata)
             console.log(data)
         }
     },
