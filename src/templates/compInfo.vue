@@ -18,7 +18,7 @@
       </div>
       <div class="content">
         <p>
-          <g-image :src="`/upload${$page.compData.icon.url}`" width="2560"/>
+          <g-image :src="`${$page.compData.icon.url}`" width="2560"/>
         </p>
       </div>
     </div>

@@ -27,7 +27,7 @@
             </p>
             
             <p>
-                <g-image :src="`/upload${$page.productInfo.icon.url}`" width="2560" />
+                <g-image :src="`${$page.productInfo.icon.url}`" width="2560" />
             </p>
         </div>
     </div>
