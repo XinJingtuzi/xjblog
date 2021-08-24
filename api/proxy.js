@@ -5,7 +5,7 @@ module.exports = (req, res) => {
   let target = ''
 
   // 处理代理目标地址
-  if (req.url.includes('/upload')) {
+  if (req.url.includes('/uploads')) {
     target = 'http://106.75.80.177:1337'
   }
 
