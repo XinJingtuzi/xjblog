@@ -50,6 +50,7 @@ export default {
         async submit(){
             const { data } = await axios.post(`/customs`,this.submitdata)
             console.log(data)
+            alert('我已收到，会尽快联系您的')
         }
     },
 }
