@@ -3,6 +3,10 @@
       {
         "source": "/uploads/(.*)",
         "destination": "/api/proxy"
+      },
+      {
+        "source": "/customs",
+        "destination": "/api/proxy"
       }
     ]
   }

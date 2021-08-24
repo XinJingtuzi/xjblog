@@ -7,7 +7,10 @@ module.exports = (req, res) => {
   // 处理代理目标地址
   if (req.url.includes('/uploads')) {
     target = 'http://106.75.80.177:1337'
+  }else if (req.url.includes('/customs')) {
+    target = 'http://106.75.80.177:1337'
   }
+  
 
   // 创建代理对象并转发请求
   createProxyMiddleware({
